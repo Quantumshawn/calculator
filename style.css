@@ -1,6 +1,6 @@
 body {
     background-color: #f9f9f9;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
     color: black;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ body {
     width: 90%;
     padding: 15px;
     font-size: 24px;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
     color: black;
     margin-bottom: 20px;
     text-align: right;
@@ -43,16 +43,22 @@ body {
   
   button {
     color: black;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
     padding: 20px;
-    font-size: 18px;
+    font-size: 20px;
     border: none;
     border-radius: 10px;
     background-color: #eee;
     cursor: pointer;
     transition: background 0.2s;
+    background-color: #eee;
   }
   
   button:hover {
     background-color: #ddd;
   }
+
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }  
